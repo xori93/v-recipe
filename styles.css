@@ -12,27 +12,21 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  /* padding: 8px 16px; */
-  /* margin: 12px; */
   width: 850px;
   height: 100vh;
 }
 
 .leaf {
-  width: 50px;
-  height: 20px;
+  width: 15px;
   color: #d43f3f;
 }
 
 .left {
-  /* left: 10px; */
-  transform: rotate(-20deg);
   margin-bottom: 10px;
 }
 
 .right {
-  /* right: 10px; */
-  transform: rotate(20deg);
+  transform: rotateY(180deg);
 }
 
 h1 {
@@ -64,13 +58,6 @@ h2 {
   letter-spacing: 1.5px;
   line-height: 2;
 }
-
-/* .horizontal-line {
-  width: 50%;
-  height: 2px;
-  margin: 20px auto;
-  background-color: #c9a060;
-} */
 
 .menu__list {
   margin-bottom: 20px;
